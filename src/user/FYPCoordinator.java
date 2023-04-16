@@ -93,7 +93,7 @@ public class FYPCoordinator extends Supervisor{
     }
 
     public void rejectRequest(int requestID) {
-        Request request = findRequest(requestID);
+        Request request = findCoordinatorRequest(requestID);
         if (request == null) {
             System.out.println("Request not found.");
             return;
