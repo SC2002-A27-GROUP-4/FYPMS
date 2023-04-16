@@ -48,6 +48,12 @@ public class Request {
         System.out.println("Request type: " + requestType.toString());
         System.out.println("Request details: " + details.toString());
         System.out.println("Request status: " + status.toString());
+        if(this.newTitle != null){
+            System.out.println("New title: " + newTitle);
+        }
+        if(this.replacementSupervisorID != null){
+            System.out.println("New title: " + replacementSupervisorID);
+        }
         System.out.println("");
     }
 
